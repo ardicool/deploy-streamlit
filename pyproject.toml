@@ -4,4 +4,15 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "flask>=3.1.2",
+    "imblearn>=0.0",
+    "ipykernel>=7.1.0",
+    "jupyterlab>=4.5.1",
+    "matplotlib>=3.10.8",
+    "mlflow>=3.8.0",
+    "numpy>=2.4.0",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.8.0",
+    "streamlit>=1.52.2",
+]

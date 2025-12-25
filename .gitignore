@@ -8,3 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+#file
+BankNote_Authentication.csv
+*.csv
