@@ -14,9 +14,10 @@ st.set_page_config(
 # --- Sidebar: Pemilihan Model ---
 st.sidebar.header("⚙️ Konfigurasi Model")
 model_options = {
+    "LinearRegression": "model6.pkl",
     "RandomForest": "model4.pkl",
     "XGBoost": "model5.pkl",
-    "LinearRegression": "model6.pkl"
+    
 }
 
 selected_model_name = st.sidebar.selectbox(
