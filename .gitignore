@@ -13,8 +13,11 @@ wheels/
 BankNote_Authentication.csv
 *.csv
 main.py
+model1.pkl
+model2.pkl
+model3.pkl
 model4.pkl
-model5.pkl
+
 rf_model.pkl
 main.py
 deploy.ipynb
