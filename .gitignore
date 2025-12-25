@@ -7,8 +7,25 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv/*
 
 #file
 BankNote_Authentication.csv
 *.csv
+main.py
+model4.pkl
+model5.pkl
+rf_model.pkl
+main.py
+deploy.ipynb
+BankNote_Authentication.csv
+classification_report.csv
+mlflow.db
+mlruns/*
+uv.lock
+
+
+
+
+
+
