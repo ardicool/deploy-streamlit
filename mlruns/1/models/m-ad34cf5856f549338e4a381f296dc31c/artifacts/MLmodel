@@ -1,0 +1,22 @@
+artifact_path: /home/rrr/ardi/program/pycharm/deploy-streamlit/mlruns/1/models/m-ad34cf5856f549338e4a381f296dc31c/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.8.0
+model_id: m-ad34cf5856f549338e4a381f296dc31c
+model_size_bytes: 420727
+model_uuid: m-ad34cf5856f549338e4a381f296dc31c
+prompts: null
+run_id: c8234fedb1874f228a27a7ee3b516f44
+utc_time_created: '2025-12-25 07:41:01.781470'
