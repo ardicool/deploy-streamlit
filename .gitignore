@@ -15,7 +15,6 @@ BankNote_Authentication.csv
 main.py
 model1.pkl
 model2.pkl
-model3.pkl
 model4.pkl
 
 rf_model.pkl
@@ -26,6 +25,7 @@ classification_report.csv
 mlflow.db
 mlruns/*
 uv.lock
+bobotFitur.ipynb
 
 
 
