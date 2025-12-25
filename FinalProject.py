@@ -71,12 +71,12 @@ if model and encoder:
         with col_grade1:
             grade_option = st.selectbox("Grade (Peringkat)", options=['A', 'B', 'C', 'D', 'E', 'F', 'G'])
             # Mapping Grade Huruf ke Angka (1-7)
-            grade_mapping = {'A': 1, 'B': 2, 'C': 3, 'D': 4, 'E': 5, 'F': 6, 'G': 7}
+            grade_mapping = {'A': 7, 'B': 6, 'C': 5, 'D': 4, 'E': 3, 'F': 2, 'G': 1}
             grade = grade_mapping[grade_option]
             
         with col_grade2:
             # Subgrade 1-5 untuk setiap Grade
-            sub_grade_num = st.selectbox(f"Sub Grade ({grade_option})", options=[1, 2, 3, 4, 5])
+            sub_grade_num = st.selectbox(f"Sub Grade ({grade_option})", options=[5, 4, 3, 2, 1])
             # Mapping total 1-35 (A1=1 ... G5=35)
             sub_grade = (grade - 1) * 5 + sub_grade_num
         
